@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v858-kul-19_1.jpg?bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=65&usm=15&vib=3&w=1200&s=168eb32f243b7d30cf500c3565cc50e9");
+height: 100%;
+width: auto;
+background-color: none;
+}
+
+#container
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
+.bar
+{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    background-color:black;
+    font-size: 25px;
+    
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+div>img{
+    width: 25%;
+}
+#why
+{
+    min-height: 500px;
+    text-align: center;
+}
+#why p{
+    padding: left 20%; ;
+    padding: right 20%; ;
+}
+p{
+    font-size: 25px;
+}
+
+footer{
+    background-image: url( "http://i1.faceprep.in/prograd-junior/black-background.png");
+    background-size: 100% 100%;
+    padding: 10% 0%;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: left;
+}
+footer p{
+    padding: 0% 20%;
+}
+.bar p{
+    color: white;
+}
